@@ -1,0 +1,43 @@
+.main{
+    height: 97vh;
+    background: url('../img/bg.jfif') center center no-repeat fixed;
+}
+.content{
+    display: flex;   
+    flex-direction: column;
+}
+.title{
+    margin: 60px 0 0 0;
+    color: honeydew;
+    text-align: center;
+    font-size: 40px;
+}
+.date{
+    margin: 350px 0 0 0;
+    color: honeydew;
+    text-align: center;
+    font-size: 40px;
+}
+.timer{
+    display: flex;
+    color: honeydew;
+    text-align: center;
+    justify-content: center;
+}
+.text{
+    color: black;
+    font-size: 30px;
+    /* background-color: transparent; */
+}
+input{
+    display: flex;
+    height: 60px;
+    width: 80px;
+    margin: 30px 20px 0;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
